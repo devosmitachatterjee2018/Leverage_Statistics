@@ -2,7 +2,7 @@
 clear all;
 clc
 %%
-%load hospital
+%load satellite data
 load("satellite.mat");
 %%
 InData = double(hospital(:,2:5));
